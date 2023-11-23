@@ -51,7 +51,6 @@ struct HelloParams {
     name: Option<String>,
 }
 
-
 fn routes_hello() -> Router {
     Router::new()
         .route(
